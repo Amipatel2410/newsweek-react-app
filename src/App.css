@@ -1,0 +1,515 @@
+
+@import url("https://fonts.googleapis.com/css?family=Rye");
+@import url("https://fonts.googleapis.com/css?family=Pacifico");
+
+body{
+  margin: 0 auto;
+  height: auto;
+  width: 900px;
+}
+
+/* header part goes here */
+.navBar {
+  width: 900px;
+  background-color: #e2d8c7;
+  /*border: 2px solid black;*/
+}
+
+.title_logo {
+  position: relative;
+  left: 10px;
+  top:2px;
+}
+
+.title_logo img {
+  border-radius: 10px;
+  /*border: 2px solid black; */
+}
+
+.nav_links{
+  width:500px;
+  position: absolute;
+  left: 750px;
+  top: 85px;
+}
+
+.nav_links .home,.login, .register, .logout {
+  color: black;
+  text-decoration: none;
+  font-family:'Pacifico', cursive;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.nav_links .home:hover, .login:hover, .register:hover, .logout:hover {
+  color: #47c1a3;
+}
+
+/* Footer part goes here */
+
+.footer_class{
+  width: 900px;
+  background-color: #e2d8c7;
+  clear: both;
+}
+
+.connect_div {
+  width: 450px;
+  position: relative;
+  left: 100px;
+  top: 50px;
+}
+
+.connect_div p{
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+}
+
+.connect_div img {
+  position: relative;
+  left: 0px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+.about_class {
+  width: 450px;
+  position: relative;
+  left: 400px;
+  bottom: 100px;
+}
+
+.about_class h3{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+.about_class p{
+  font-style:  italic;
+  text-align: justify;
+  font-size: 15px;
+}
+
+.created_class {
+  width: 900px;
+  position: relative;
+  left: 300px;
+  bottom: 2px;
+}
+
+.created_class p {
+
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'Pacifico', cursive;
+}
+
+/* search api select option menu and search button css     */
+
+.main_page {
+  width: 900px;
+  height: 600px;
+  background-image: url('https://toolbox.finland.fi/wp-content/uploads/sites/16/World.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.searchbar {
+  width: 900px;
+  position: relative;
+  left: 150px;
+  top: 160px;
+
+}
+
+.searchbar label {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+}
+
+.searchbar select {
+  height:30px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 10px;
+  border: 2px solid black;
+  background-color: #d1c59c;
+}
+
+.searchbar button {
+  height: 35px;
+  width: 100px;
+  font-size: 18px;
+  font-family: 'Pacifico', cursive;
+  border-radius: 5px;
+  border: 2px solid black;
+  background-color: #d1c59c;
+  position: relative;
+  top: 3px;
+}
+
+.searchbar button:hover{
+  cursor: pointer;
+  color: #47c1a3;
+}
+
+/* loading data here */
+
+.loading {
+  width: 900px;
+  position: relative;
+  left: 370px;
+  top: 300px;
+}
+
+.loading p {
+  font-size: 20px;
+  font-family: 'Pacifico', cursive;
+}
+
+/* login page css here */
+
+.login_page {
+  position: relative;
+  left: 250px;
+}
+
+.login_page img{
+
+  border: 2px solid black;
+  border-radius: 50%;
+  position: relative;
+  left: 60px;
+  margin-top: 20px;
+}
+
+.login_page label {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  position: relative;
+  left: 0px;
+}
+
+.login_page input[type=password] {
+      width: 400px;
+      padding: 16px 32px;
+      margin: 8px,0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 30px;
+      box-sizing: border-box;
+      font-size: 20px;
+}
+
+.login_page input[type=text] {
+      width: 400px;
+      padding: 16px 32px;
+      margin: 8px,0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 30px;
+      box-sizing: border-box;
+      font-size: 20px;
+}
+
+.login_page button[type=submit] {
+  background-color: #e2d8c7;
+    color: black;
+    padding: 16px 32px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 400px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+.login_page button[type=submit]:hover {
+    opacity: 0.8;
+}
+
+/* Register page css goes here */
+
+
+.register_page {
+  position: relative;
+  left: 250px;
+}
+
+.register_page img{
+
+  border: 2px solid black;
+  border-radius: 50%;
+  position: relative;
+  left: 60px;
+  margin-top: 20px;
+}
+
+.register_page label {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  position: relative;
+  left: 0px;
+}
+
+.register_page input[type=password] {
+      width: 400px;
+      padding: 16px 32px;
+      margin: 8px,0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 30px;
+      box-sizing: border-box;
+      font-size: 20px;
+}
+
+.register_page input[type=text] {
+      width: 400px;
+      padding: 16px 32px;
+      margin: 8px,0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 30px;
+      box-sizing: border-box;
+      font-size: 20px;
+}
+
+.register_page button[type=submit] {
+  background-color: #e2d8c7;
+    color: black;
+    padding: 16px 32px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 400px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+.register_page button[type=submit]:hover {
+    opacity: 0.8;
+}
+
+/* User Profile page css goes here */
+
+.userprofile_data {
+  width: 900px;
+  height: auto;
+}
+
+.userprofile_single {
+  height:900px;
+  width:400px;
+  float: left;
+  margin: 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.userprofile_single h1{
+    font-family: 'Rye', cursive;
+    text-align: justify;
+    padding: 10px;
+}
+
+.userprofile_single img {
+  position: relative;
+  left: 20px;
+}
+.userprofile_single h3 {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+}
+
+.userprofile_single h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+
+}
+.userprofile_single p{
+  font-size: 15px;
+  font-style: italic;
+  text-align: justify;
+  font-weight: bold
+}
+
+.userprofile_single a{
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  color:#539bbc;
+  text-decoration: none;
+  position: relative;
+  left: 150px;
+}
+.userprofile_single a:hover{
+  color: #1cd1db;
+}
+
+.userprofile_single h4{
+  font-weight: bold;
+}
+
+.userprofile_single button[type=submit] {
+    background-color: #e2d8c7;
+    color: black;
+    padding: 16px 32px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 150px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    position: relative;
+    left: 100px;
+}
+
+.edit {
+  height: auto;
+  position: relative;
+  left: 250px;
+}
+
+.edit h1{
+  font-family: 'Pacifico', cursive;
+  position: relative;
+  left: 110px;
+}
+
+.edit input[type=text] {
+      width: 400px;
+      padding: 16px 32px;
+      margin: 8px,0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 30px;
+      box-sizing: border-box;
+      font-size: 15px;
+}
+
+.edit input[type=submit] {
+    background-color: #e2d8c7;
+    color: black;
+    padding: 16px 32px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 150px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    position: relative;
+    left: 110px;
+}
+
+.edit label{
+  font-family: 'Pacifico', cursive;
+  font-size: 20px;
+  position: relative;
+  left: 0px;
+}
+
+.edit .back_link {
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 150px;
+}
+
+.userprofile_user .heading {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+}
+
+/* after search button display api data  */
+
+.main_article-data {
+  height: auto;
+  position: relative;
+  top: 160px;
+  margin: 15px;
+  border: 2px solid #e2d8c7;
+  padding: 10px;
+}
+
+.article_data .for_css2 {
+  float: right;
+  position: relative;
+  bottom: 280px;
+  border: 1px solid black;
+}
+
+.article_data .for_css1 {
+  width: 600px;
+  height: auto;
+}
+
+.article_data .for_css1 h1{
+  font-family: 'Rye', cursive;
+}
+
+.article_data .for_css1 h3{
+  font-family: 'Pacifico', cursive;
+}
+
+.article_data .for_css1 .title{
+  font-family:  'Pacifico', cursive;
+  font-size: 15px;
+}
+
+.article_data .for_css1 a{
+  font-family:  'Pacifico', cursive;
+   color:#539bbc;
+}
+
+.article_data .for_css1 a:hover {
+  color: #1cd1db;
+}
+
+.article_data .for_css1 .des{
+  font-style: italic;
+  text-align: justify;
+  width: 570px;
+}
+.article_data .for_css1 .publish{
+  font-weight: bold;
+}
+
+.for_btn input[type=submit] {
+    background-color: #e2d8c7;
+    color: black;
+    padding: 16px 32px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 150px;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
